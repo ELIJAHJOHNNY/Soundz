@@ -1,0 +1,30 @@
+.playlist-card {
+  background: linear-gradient(
+    75deg,
+    rgb(40, 58, 88) 0%,
+    rgb(54, 59, 98, 0) 100%
+  );
+  transition: all 0.2s ease;
+}
+
+.playList-name {
+  display: -webkit-box;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.playlist-card:hover #playIcon {
+  opacity: 1;
+}
+
+.playIcon {
+  background: linear-gradient(
+    180deg,
+    rgb(54, 69, 98, 0) 10%,
+    rgb(54, 69, 98, 1) 100%
+  );
+  transition: all 0.2s ease;
+}

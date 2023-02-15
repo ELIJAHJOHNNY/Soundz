@@ -1,0 +1,11 @@
+.buttons {
+  transition: all 0.2s ease-in-out;
+}
+
+.play {
+  box-shadow: inset -4px -4px 10px #55291e, inset 4px 4px 10px 1px #ffae9a;
+}
+
+.pause {
+  box-shadow: inset -4px -4px 10px #ff8769, inset 4px 4px 10px 1px #753d30;
+}

@@ -1,0 +1,22 @@
+.icons {
+  color: #f8d9c0;
+}
+.active-icon {
+  color: white;
+}
+
+.active-button {
+  background-color: rgb(244, 187, 146, 1);
+  transform: scale(1.05);
+}
+
+.inactive-opacity {
+  background-color: rgb(244, 187, 146, 0);
+}
+
+#butt:hover {
+  color: white;
+}
+#butt:hover p {
+  color: white;
+}

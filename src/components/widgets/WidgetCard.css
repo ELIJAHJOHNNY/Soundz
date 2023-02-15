@@ -1,0 +1,13 @@
+.widgetEntryCard::-webkit-scrollbar {
+  display: none;
+}
+
+.widgetCard {
+  background: rgb(30, 42, 62);
+  background: linear-gradient(
+    75deg,
+    rgb(40, 58, 88) 0%,
+    rgb(54, 69, 98, 0) 100%
+  );
+  transition: all 0.2s ease-in-out;
+}
